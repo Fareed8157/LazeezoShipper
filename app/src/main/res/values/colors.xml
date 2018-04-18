@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004d40</color>
+    <color name="colorPrimaryDark">#00251a</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="signInbtn">#00796B</color>
+    <color name="signInActive">#4CAF50</color>
+    <color name="white">#ffffff</color>
+    <color name="flaoting">#00796B</color>
+    <color name="lightOrange">#fdf2df</color>
+    <color name="lightDarkOrange">#ebd6ab</color>
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+    <color name="backColor">#4DB6AC</color>
+
+    <color name="starColor">#45b9ad</color>
+    <color name="noteDescriptionTextColor">#45b9ad</color>
+    <color name="titleTextColor">#FFFFFF</color>
+    <color name="descriptionTextColor">#A6FFFFFF</color>
+    <color name="commentTextColor">#FFFFFF</color>
+    <color name="hintTextColor">#55000000</color>
+</resources>

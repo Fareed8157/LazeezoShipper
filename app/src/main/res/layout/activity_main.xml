@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DB6AC"
+    tools:context="com.example.fareed.lazeezoshipper.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/ship8" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/transprect"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="239dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="Get Started"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:text="Just a few details to get you started"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="03060342843"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/rounded_white"
+            android:drawableLeft="@drawable/ic_user_icon"
+            android:drawablePadding="5dp"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:paddingStart="10dp"
+            android:textSize="14sp" />
+        <AutoCompleteTextView
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/rounded_white"
+            android:drawableLeft="@drawable/ic_confirm_icon"
+            android:drawablePadding="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:text="123"
+            android:textSize="14sp"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:backgroundTint="#26C6DA"
+        android:id="@+id/signIn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/linearLayout3"
+        android:layout_marginBottom="41dp"
+        android:text="Sign in"
+        android:textColor="@color/white" />
+</RelativeLayout>
